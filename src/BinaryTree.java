@@ -2,6 +2,12 @@
 public class BinaryTree implements BinaryTreeInterface {
     Node root;
 
+    Node test;
+
+    public void noThing() {
+        System.out.println("noThing");
+    }
+
     public void insert(Node node) {
         root = insertHelper(root, node);
     }
